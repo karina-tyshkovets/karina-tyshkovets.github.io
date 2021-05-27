@@ -1,0 +1,28 @@
+#s5 {
+	min-height: 0;
+	display: block;
+	padding:0;
+}
+
+#s5 > img {
+	display: block;
+	width: 100%;
+}
+
+#s5 > img:first-child {
+	margin-bottom:-2px;
+}
+
+#s5 > img:last-child {
+	margin-top:-2px;
+}
+
+.slider {
+	background-image: linear-gradient(to bottom, #ffb300, #ff8900);
+	padding: 0 30px;
+}
+
+.slider .item {
+	max-width: 600px;
+	margin:auto;
+}

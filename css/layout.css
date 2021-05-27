@@ -1,0 +1,89 @@
+/* Нормалізація */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* END of Нормалізація */
+
+html, body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #5C1E00;
+    line-height: 1.8;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 900;
+}
+/* Ієрархія заголовків 1,2,3 рівнів  */
+
+h1 { font-size: 6rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+h1, h2, h3 {
+    margin-bottom: .5em;
+}
+p { font-size: 1rem; }
+
+.wave {
+    width: 100%;
+    height: 100%
+    margin: auto;
+    position: relative; z-index: 10000;
+} 
+
+.box {
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    text-align: center; 
+    color: #5C1E00
+}
+
+header, section {
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+nav, header, section {
+    padding: 25px; /* Мінімальні внутрішні відступи для smartphone */
+}
+
+nav {
+    padding: 8px 25px;    
+}
+
+#s1, #s2, #s3, #s4, #s5, #s6, #s7 {
+    min-height: 0;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+#s5 {
+    margin-bottom: 20px;
+}
+
+.container-fluid,
+.container {
+    margin:  auto; /* Центрування по-горизонталі */
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px; /* Обмеження ширини контенту всередині секцій */
+}
+
+div img {
+    display: block;
+    max-width: 100%;
+}

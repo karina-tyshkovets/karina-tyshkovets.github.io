@@ -1,0 +1,20 @@
+#s6 .box {
+	display: flex;
+	/*justify-content: space-between;*/
+	/*align-items: flex-start;*/
+}
+
+#s6 .img-box {
+	width: 50%;
+	max-width: 1400px;
+}
+
+.img-box img {
+    display: block;
+	width:100%;
+}
+
+#s6 .txt-box {
+	width: 50%;
+	text-align: left;
+}

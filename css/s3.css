@@ -1,0 +1,43 @@
+#s3 {
+	padding:0;
+	min-height: 0;
+	display: block;
+}
+
+#s3 > img {
+	display: block;
+	width: 100%;
+}
+
+#s3 > img:first-child {
+	margin-bottom:-2px;
+}
+
+#s3 > img:last-child {
+	margin-top:-2px;
+}
+
+#s3 .container-fluid {
+	background-image: linear-gradient(to bottom, #ffb300, #ff8900);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#s3 .box {
+	/*padding: 30px;*/
+	max-width: 650px;
+	margin: 0;
+	text-align: left;
+}
+
+/*#s3 .img-box {
+    background-image: url("../img/svg/SVG/seredyna.svg");
+    background-size:;
+    background-position: center;
+    }
+*/
+.img-box img {
+	display: block;
+	width:100%;
+}

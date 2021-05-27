@@ -1,0 +1,21 @@
+#s7 .box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#s7 .img-box {
+	width: 40%;
+	max-width: 400px;
+	
+}
+
+.img-box img {
+	display: block;
+	width:100%;
+}
+
+#s7 .txt-box {
+	width: 60%;
+	text-align: left;
+}

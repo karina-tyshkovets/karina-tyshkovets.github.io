@@ -1,0 +1,52 @@
+#s1 .container {
+	display: block;
+}
+
+#s1 h2 {
+	font-size: 2rem;
+	margin-bottom: 3em;
+}
+
+.icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.icons .col {
+	width: 33.33%;
+	padding: 0 30px;
+	margin-bottom: 40px;
+}
+
+.icons .col p {
+	font-size: 1rem;
+	max-width: 250px;
+	margin: auto;
+	text-align: center;
+}
+
+.icons .col img {
+	display: block;
+	width:100%;
+	max-width: 200px;
+	margin: auto;
+}
+
+.icons h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 15px 0px 8px
+}
+
+@media screen and (max-width: 992px) {
+
+	.icons .col {
+		width: 100%;
+	}
+
+	.icons {
+		justify-content: center;
+	}
+}

@@ -1,0 +1,31 @@
+#s2 {
+	position: relative;
+}
+
+#s2 .box {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#s2 .img-box {
+	width: 40%;
+	max-width: 300px;
+}
+
+.img-box img {
+	display: block;
+	width:100%;
+}
+
+#s2 .txt-box {
+	width: 60%;
+	text-align: left;
+}
+
+.bee {
+	position: absolute;
+	left:0;
+	bottom:0;
+	width: 80%;
+}
